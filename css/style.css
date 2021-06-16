@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Montserrat:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    filter: brightness(60%) contrast(1.4);
+    transition: all 0.5s;
+}
+
+.user-name,
+.author,
+.quote,
+.randomize-background,
+.randomize-quote {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.quote {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.card, footer, header {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .15) !important;
+    backdrop-filter: blur(5px);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.time {
+    font-family: 'Inconsolata', monospace;
+    font-size: 70px;
+}
+
+.date {
+    font-family: 'Inconsolata', monospace;
+}
+
+
+
+/* @media (min-width: 640px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1280px) {
+
+} */
